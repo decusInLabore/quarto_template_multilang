@@ -1,3 +1,10 @@
+---
+format:
+    html:
+        embed-rmd: true
+        output-ext: "htm"
+---
+
 # Introduction
 
 This chapter introduces the basics of cross-language computation in Quarto.

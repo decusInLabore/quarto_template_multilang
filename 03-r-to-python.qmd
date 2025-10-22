@@ -1,3 +1,10 @@
+---
+format:
+    html:
+        embed-rmd: true
+        output-ext: "htm"
+---
+
 # Passing R Variable to Python
 
 Here we define a variable in R and use it in Python.
