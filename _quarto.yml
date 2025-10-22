@@ -1,0 +1,17 @@
+project:
+  type: book
+
+book:
+  title: "Multi-Language Analysis Book"
+  author: "Your Name"
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-python-to-r.qmd
+    - 03-r-to-python.qmd
+    - 04-summary.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
