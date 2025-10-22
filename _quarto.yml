@@ -11,6 +11,7 @@ project:
     - 02-python-to-r.qmd
     - 03-r-to-python.qmd
     - 04-summary.qmd
+    - 05-figures.qmd
 
 editor:
   markdown:
@@ -65,6 +66,10 @@ website:
             contents:
               - file: 04-summary.htm
                 text: "Part 04-summary"
+          - section: "Part 5"
+            contents:
+              - file: 05-figures.htm
+                text: "Part 05-figures"
 
 book:
   title: "Multi-Language Analysis Book"
