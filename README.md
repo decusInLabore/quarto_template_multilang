@@ -1,15 +1,21 @@
 # quarto_template_multilang
 Multilanguage Quarto Template
 
+# Start GPU node interactively
+`srun --ntasks=1 --cpus-per-task=1 --partition=vis --gres=gpu:1 --time=12:00:00 --mem=200G --x11 --pty bash`
+
 # Setup
 ## Retrieve and start singularity container
 ### Retrieve pre-made singularity container from dockerhub
-
-
 `ml Singularity/3.6.4`
 
-`singularity shell --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.sif`
-`singularity shell --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.sif`
+`singularity shell --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.V2.sif`
+`singularity shell --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.V2.sif`
+
+### Start GPU node interactively
+
+### Use on a GPU node
+`singularity shell --nv --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.V2.sif`
 
 
 ## Setup python-venv package environment
@@ -17,7 +23,7 @@ Multilanguage Quarto Template
 python3.10 -m venv single_cell_venv_310
 
 ### Activate venv environment
-source single_cell_venv_310/bin/activate
+`source single_cell_venv_310/bin/activate`
 
 ## Setup R-renv package environment
 ### Specifying R-library paths
