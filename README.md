@@ -26,6 +26,7 @@ python3.10 -m venv single_cell_venv_310
 `source single_cell_venv_310/bin/activate`
 
 In a Crick setting:
+
 `source /nemo/lab/rouhanif/home/users/boeings/venv/single_cell_venv_310/bin/activate`
 
 ## Setup R-renv package environment
