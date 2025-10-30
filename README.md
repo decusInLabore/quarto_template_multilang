@@ -15,7 +15,7 @@ Multilanguage Quarto Template
 ### Start GPU node interactively
 
 ### Use on a GPU node
-singularity shell --nv --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.sif
+`singularity shell --nv --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.sif`
 
 
 ## Setup python-venv package environment
@@ -23,7 +23,7 @@ singularity shell --nv --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/u
 python3.10 -m venv single_cell_venv_310
 
 ### Activate venv environment
-source single_cell_venv_310/bin/activate
+`source single_cell_venv_310/bin/activate`
 
 ## Setup R-renv package environment
 ### Specifying R-library paths
