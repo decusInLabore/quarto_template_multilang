@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: ../../../../../test_pdf_local/
+  render:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-python-to-r.qmd
+    - 03-r-to-python.qmd
+    - 04-summary.qmd
+    - 05-figures.qmd
+
+editor:
+  markdown:
+    references:
+      location: block
+      prefix: "Main_Analysis_"
+
+format: 
+  pdf:
+    toc: true
+    toc-depth: 5
+    toc-title: Contents
+    code-line-numbers: true
+    highlight-style: arrow
+
+book:
+  title: "Multi-Language Analysis Book"
+  author: "Your Name"
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-python-to-r.qmd
+    - 03-r-to-python.qmd
+    - 04-summary.qmd
+    - 05-figures.qmd
