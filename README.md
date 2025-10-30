@@ -10,7 +10,7 @@ Multilanguage Quarto Template
 `ml Singularity/3.6.4`
 
 `singularity shell --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.V2.sif`
-`singularity shell --bind  /nemo:/nemo,/camp:/camp /nemo/lab/rouhanif/home/users/boeings/singularity_images/r450.python310.ubuntu.22.04.singularity.image/r450.python310.ubuntu.22.04.V2.sif`
+
 
 ### Start GPU node interactively
 
