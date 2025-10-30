@@ -29,8 +29,9 @@ In a Crick setting:
 `source /nemo/lab/rouhanif/home/users/boeings/venv/single_cell_venv_310/bin/activate`
 
 ## Setup R-renv package environment
-### Specifying R-library paths
+### Specifying R-library paths (optional)
 `export RENV_PATHS_LIBRARY=/nemo/lab/rouhanif/home/users/boeings/R/library`
+
 `export RENV_PATHS_CACHE=/nemo/lab/rouhanif/home/users/boeings/R/cache`
 
 ### Configuring analysis modules to run and initiation of workflow
