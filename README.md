@@ -24,6 +24,7 @@ python3.10 -m venv single_cell_venv_310
 
 ### Activate venv environment
 `source single_cell_venv_310/bin/activate`
+`source /nemo/lab/rouhanif/home/users/boeings/venv/single_cell_venv_310/bin/activate`
 
 ## Setup R-renv package environment
 ### Specifying R-library paths
